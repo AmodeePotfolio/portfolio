@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amos Kiprono | Portfolio</title>
+
+  <!-- ✅ Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    /* 🌐 Global Styles */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f9fa;
+      color: #333;
+    }
+
+    /* 🧢 Header */
+    header {
+      background: linear-gradient(135deg, #0056b3, #007bff);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    header img {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid white;
+      margin-bottom: 15px;
+    }
+
+    header h1 {
+      font-size: 2.6em;
+      margin: 10px 0;
+    }
+
+    header p {
+      font-size: 1.1em;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      background-color: #ff5733;
+      color: white;
+      padding: 12px 28px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 1em;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .btn:hover {
+      background-color: #e64a19;
+    }
+
+    /* 🧭 Navigation */
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 15px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ff5733;
+    }
+
+    /* 📦 Sections */
+    section {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 0 20px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #0056b3;
+      margin-bottom: 15px;
+    }
+
+    /* 🎯 Skills & Projects */
+    .skills-list, .projects-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .skill, .project {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s;
+    }
+
+    .skill:hover, .project:hover {
+      transform: translateY(-5px);
+    }
+
+    /* 📬 Contact Form */
+    form {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      text-align: left;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 1em;
+    }
+
+    /* 🌐 Social Icons */
+    .social-icons {
+      margin-top: 25px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-icons a {
+      font-size: 28px;
+      transition: transform 0.3s;
+    }
+
+    .social-icons a:hover {
+      transform: scale(1.2);
+    }
+
+    .fa-linkedin { color: #0077b5; }
+    .fa-instagram { color: #e1306c; }
+    .fa-facebook { color: #1877f2; }
+    .fa-whatsapp { color: #25D366; }
+
+    /* ⚫ Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🧠 Header Section -->
+  <header>
+    <!-- Replace the link below with your actual image -->
+    <img src="amoh.jpg.jpg" alt="Amos Kiprono Photo">
+    <h1>Amos Kiprono</h1>
+    <p>Digital Marketer | Blogger | Influencer</p>
+    <a href="#contact" class="btn">Hire Me</a>
+  </header>
+
+  <!-- 🧭 Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- 🙋 About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I'm <strong>Amos Kiprono</strong>, a passionate digital marketer and content creator from Nairobi, Kenya. I help brands grow through social media marketing, blogging, and digital entrepreneurship.</p>
+  </section>
+
+  <!-- 💡 Skills Section -->
+  <section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-list">
+      <div class="skill"><strong>Social Media Marketing</strong><br>Facebook Ads, Instagram growth, and lead generation</div>
+      <div class="skill"><strong>Content Writing</strong><br>SEO blogs, copywriting, and storytelling</div>
+      <div class="skill"><strong>Digital Strategy</strong><br>Brand awareness & conversion optimization</div>
+      <div class="skill"><strong>Email Marketing</strong><br>Building and nurturing customer relationships</div>
+    </div>
+  </section>
+
+  <!-- 🚀 Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-list">
+      <div class="project"><strong>Digiwealth Hub</strong><br>Online education platform for digital entrepreneurship</div>
+      <div class="project"><strong>Bilands Limited</strong><br>Social media content design for investment firm</div>
+      <div class="project"><strong>Personal Blog</strong><br>AdSense-ready blog about making money online</div>
+    </div>
+  </section>
+
+  <!-- 📬 Contact Section -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xblzzvng" method="POST">
+      <label>Your Name</label>
+      <input type="text" name="name" placeholder="Enter your name" required>
+
+      <label>Email</label>
+      <input type="email" name="_replyto" placeholder="Enter your email" required>
+
+      <label>Message</label>
+      <textarea name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/in/amos-kiprono-6b607a318" target="_blank"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/amodee_bill" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://www.facebook.com/profile.php?id=61577658621103" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://wa.me/254759123896" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    </div>
+  </section>
+
+  <!-- ⚫ Footer -->
+  <footer>
+    <p>© 2025 Amos Kiprono | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
